@@ -10,6 +10,7 @@ export default defineConfig({
   plugins: [createReactPlugin(), createReScriptPlugin()],
   server: {
     port: 8000,
+    host: true
   },
   test: {
     include: ['tests/**/*_test.bs.js'],

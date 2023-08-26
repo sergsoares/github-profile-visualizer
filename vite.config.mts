@@ -9,7 +9,7 @@ import createReScriptPlugin from '@jihchi/vite-plugin-rescript';
 export default defineConfig({
   plugins: [createReactPlugin(), createReScriptPlugin()],
   server: {
-    port: 8000,
+    port: 80,
   },
   test: {
     include: ['tests/**/*_test.bs.js'],
